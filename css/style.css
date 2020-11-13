@@ -1,0 +1,50 @@
+:root {
+  --image-contact-width: 50px;
+  --padding: 10px;
+}
+.whatsapp-contact {
+  width: var(--image-contact-width);
+  position: fixed;
+  z-index: 999999;
+}
+.whatsapp-contact img {
+  display: block;
+  max-width: 100%;
+  width: var(--image-contact-width);
+}
+.top-left {
+  top: var(--padding);
+  left: var(--padding);
+}
+.top-center {
+  top: var(--padding);
+  left: calc((100% - var(--image-contact-width)) / 2);
+}
+.top-right {
+  top: var(--padding);
+  right: var(--padding);
+}
+.center-left {
+  top: calc((100% - var(--image-contact-width)) / 2);
+  left: var(--padding);
+}
+.center-center {
+  top: calc((100% - var(--image-contact-width)) / 2);
+  left: calc((100% - var(--image-contact-width)) / 2);
+}
+.center-right {
+  top: calc((100% - var(--image-contact-width)) / 2);
+  right: var(--padding);
+}
+.bottom-left {
+  bottom: var(--padding);
+  left: var(--padding);
+}
+.bottom-center {
+  bottom: var(--padding);
+  left: calc((100% - var(--image-contact-width)) / 2);
+}
+.bottom-right {
+  bottom: var(--padding);
+  right: var(--padding);
+}
